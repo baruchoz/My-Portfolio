@@ -8,6 +8,10 @@
   list-style: none;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 /* ===================================== */
 /* Navigation */
 nav {
@@ -74,6 +78,10 @@ nav.sticky .menu a:hover {
   color: #6eb8e6;
 }
 
+nav.sticky .menu-btn i{
+  color: #ffffff;
+}
+
 /* Side Navigation */
 .cancel-btn,
 .menu-btn {
@@ -132,6 +140,36 @@ nav.sticky .menu a:hover {
 .text-four {
   font-size: 25px;
   margin: 5px 0;
+}
+
+.home .btn {
+  margin: 16px 0;
+}
+
+.home button {
+  outline: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  font-size: 25px;
+  font-weight: 400;
+  background: #6eb8e6;
+  color: #fff;
+  border: 2px solid transparent;
+  cursor: pointer;
+  transition: all 0.4s ease;
+}
+
+.home button a{
+  color: #fff;
+}
+
+.home button:hover {
+  border-color: #6eb8e6;
+  background-color: rgba(255, 255, 255, 0);
+}
+
+.home button a:hover {
+  color: #6eb8e6;
 }
 
 .socials {
@@ -200,8 +238,9 @@ section .topic {
 }
 
 .about-details .right p {
-  text-align: justify;
+  /*text-align: justify;*/
   padding-bottom: 20px;
+  font-size: 18px;
 }
 
 section .button {
@@ -245,8 +284,9 @@ section .button button:hover {
 }
 .skills-details p {
   color: #0e2431;
-  text-align: justify;
+  /*text-align: justify;*/
   margin-bottom: 20px;
+  font-size: 18px;
 }
 
 .certifications {
@@ -323,7 +363,7 @@ section .button button:hover {
 }
 
 .projects .card img {
-  border-radius: 12px 12px 0px 0px;
+  border-radius: 12px 12px 0 0;
   width:100%;
   height: auto;
   cursor: pointer;
@@ -331,7 +371,7 @@ section .button button:hover {
 
 
 .projects .card .card-info-wrapper {
-  padding: 0px 3px;
+  padding: 0 3px;
 }
 
 .projects .card .card-title {
@@ -350,7 +390,6 @@ section .button button:hover {
 .projects .card .card-button {
   margin-bottom: 20px;
   padding: 4px;
-  border: none;
   border-radius: 10px;
   background-color: #6eb8e6;
   border: 2px solid #ffffff;
