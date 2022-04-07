@@ -71,7 +71,7 @@ nav.sticky .menu a {
 }
 
 nav.sticky .menu a:hover {
-  color: rgb(14, 36, 49);
+  color: #6eb8e6;
 }
 
 .menu-btn i{
@@ -122,24 +122,15 @@ nav.sticky .menu-btn i{
 }
 
 .text-one {
-  font-size: 25px;
-}
-
-.text-two {
   font-size: 75px;
   font-weight: 600;
   margin-left: -3px;
 }
 
-.text-three {
+.text-two {
   font-size: 40px;
   margin: 5px 0;
   color: #6eb8e6;
-}
-
-.text-four {
-  font-size: 25px;
-  margin: 5px 0;
 }
 
 .home .btn {
