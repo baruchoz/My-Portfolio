@@ -398,7 +398,6 @@ section .button button:hover {
 
 .projects .card .card-links a:hover {
   color: #6eb8e6;
-
 }
 
 
@@ -411,11 +410,10 @@ section .button button:hover {
 .contact .content {
   margin: 0 auto;
   padding: 30px 0;
-
   border-radius: 24px;
 }
 .form-container {
-  width: 90%;
+  width: 60%;
   text-align: center;
   margin: auto;
   padding: 20px;
@@ -441,28 +439,12 @@ input[type=submit] {
   cursor: pointer;
   float: right;
   font-size: 25px;
+  margin-top: 12px;
 }
 input[type=submit]:hover {
   color: #6eb8e6;
   background-color: #ffffff;
   border-color: #6eb8e6;
-}
-.col-25 {
-  float: left;
-  width: 25%;
-  margin-top: 6px;
-}
-
-.col-75 {
-  float: left;
-  width: 75%;
-  margin-top: 6px;
-}
-
-.contact .row:after {
-  content: "";
-  display: table;
-  clear: both;
 }
 
 /* ===================================== */
@@ -565,7 +547,7 @@ footer a:hover {
     top: 0;
     height: 100vh;
     max-width: 400px;
-    width: 70%;
+    width: 50%;
     padding-top: 60px;
     background: rgb(14, 36, 49);
     flex-direction: column;
@@ -597,11 +579,11 @@ footer a:hover {
     margin-top: 40px;
   }
 
-  .text-two {
+  .text-one {
     font-size: 65px;
   }
 
-  .text-three {
+  .text-two {
     font-size: 35px;
   }
 
@@ -630,8 +612,11 @@ footer a:hover {
     margin: 20px 0;
     width: 100%;
   }
-  .contact .text {
-    width: 100%;
+  .form-container {
+    width: 90%;
+    text-align: center;
+    margin: auto;
+    padding: 20px;
   }
 }
 
