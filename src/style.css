@@ -71,7 +71,7 @@ nav.sticky .menu a {
 }
 
 nav.sticky .menu a:hover {
-  color: #6eb8e6;
+  color: #0e2431;
 }
 
 .menu-btn i{
@@ -351,6 +351,10 @@ section .button button:hover {
   border-radius: 12px;
   text-align: center;
   position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .projects .card img {
@@ -362,14 +366,15 @@ section .button button:hover {
 
 
 .projects .card .card-info-wrapper {
-  padding: 0 3px;
+  padding: 10px 3px;
 }
 
 .projects .card .card-title {
-  font-size: 20px;
+  font-size: 24px;
   font-weight: 500;
   margin: 20px 0;
   color: #0e2431;
+  justify-content: space-around;
 }
 
 .projects .card .card-links {
@@ -418,7 +423,7 @@ section .button button:hover {
   margin: auto;
   padding: 20px;
 }
-input[type=text], select, textarea{
+input[type=text], input[type=email], select, textarea{
   width: 100%;
   padding: 12px;
   border: 2px solid #6eb8e6;
