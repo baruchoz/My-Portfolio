@@ -521,10 +521,10 @@ footer a:hover {
     margin: 40px 0;
   }
 
-  .projects .boxes .box {
+  /* .projects .boxes .box {
     margin: 20px 0;
     width: calc(100% / 2 - 20px);
-  }
+  } */
 }
 
 @media (max-width: 950px) {
@@ -613,10 +613,12 @@ footer a:hover {
     width: 100%;
   }
 
-  .projects .boxes .box {
-    margin: 20px 0;
+  .column {
     width: 100%;
+    display: block;
+    margin-bottom: 20px;
   }
+
   .form-container {
     width: 90%;
     text-align: center;
@@ -625,13 +627,13 @@ footer a:hover {
   }
 }
 
-@media screen and (max-width: 600px) {
+/* @media screen and (max-width: 600px) {
   .column {
     width: 100%;
     display: block;
     margin-bottom: 20px;
   }
-}
+} */
 
 
 @media (max-width: 510px) {
