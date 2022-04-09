@@ -330,7 +330,7 @@ section .button button:hover {
 
 .column {
   float: left;
-  width: 33%;
+  width: 25%;
   padding: 10px 10px;
 }
 
@@ -616,7 +616,7 @@ footer a:hover {
   }
 
   .column {
-    width: 100%;
+    width: 50%;
     display: block;
     margin-bottom: 20px;
   }
@@ -658,6 +658,10 @@ footer a:hover {
   .skills-details .boxes .per {
     font-size: 50px;
     color: #6eb8e6;
+  }
+
+  .column {
+    width: 100%;
   }
 }
 
