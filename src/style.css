@@ -220,10 +220,12 @@ section .topic {
   font-size: 25px;
   font-weight: 500;
   margin-bottom: 10px;
+  
 }
 
 .about-details .right p {
-  /*text-align: justify;*/
+  letter-spacing: 1px;
+  line-height: 1.33;
   padding-bottom: 20px;
   font-size: 18px;
 }
@@ -461,9 +463,9 @@ input[type="submit"]:hover {
 }
 
 #topBtn:hover {
-  color: #6eb8e6;
-  background-color: #ffffff;
-  border: 1px solid #6eb8e6;
+  color: #0e2431;
+  background-color: transparent;
+  border: 1px solid #0e2431;
 }
 
 /* ===================================== */
