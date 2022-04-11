@@ -46,6 +46,7 @@
             </div>
         </div>
     </nav>
+
     <!--  Home/Hero Section  -->
     <section class="home" id="home">
         <div class="home-content">
@@ -54,15 +55,14 @@
                 <div class="text-one">Baruch Rotbart</div>
                 <div class="text-two">Fullstack Web Developer</div>
                 <div class="btn">
-                    <button><a href="#about">About Me</a></button>
+                    <a href="#about"><button>About Me</button></a>
                 </div>
             </div>
             <div class="socials">
                 <div><a href="https://www.linkedin.com/in/baruch-rotbart/"><i class="fab fa-linkedin"></i></a></div>
-                <div><a href=""></a></div>
                 <div><a href="https://twitter.com/baruch_rotbart"><i class="fab fa-twitter"></i></a></div>
-                <div><a href=""></a></div>
                 <div><a href="https://github.com/baruchoz"><i class="fab fa-github"></i></a></div>
+                <div><a href="https://codepen.io/baruchoz"><i class="fab fa-codepen"></i></a></div>
             </div>
         </div>
     </section>
@@ -79,7 +79,7 @@
                     <div class="topic">A Passion For Programming</div>
                     <p>I am a passionate, creative, and highly motivated Full Stack Web Developer who wants to create
                         positive changes for
-                        the world. I take pride in my abilities to solve problems and with perseverance I find solutions
+                        the world. I take pride in my abilities to solve problems and, with perseverance, I find solutions
                         for
                         the scenarios presented. I have enjoyed my experiences being part of a team however, I also
                         love to work on my
@@ -109,8 +109,8 @@
                     <p class="certifications">Coding Temple Software Development BootCamp • 2021</p>
                     <p class="certifications">Responsive Web Design Essentials - HTML5 CSS3 Bootstrap • 2022</p>
                     <div class="experience">
-                        <div class="num">1</div>
-                        <div class="exp">Year Of <br> Experience</div>
+                        <div class="num">&#60 1</div>
+                        <div class="exp">Year of <br> Experience</div>
                     </div>
                 </div>
                 <div class="boxes">
@@ -140,111 +140,57 @@
         <div class="title"><span>My Projects</span></div>
 
         <div class="content">
-            <!-- <div class="project-names"><span>Games</span></div> -->
-            <div class="row">
-                <div class="column">
+            <!-- <h1>Games Projects</h1>  !!!Save For Later When I add project sections!!! -->
+            <ul class="cards-wrapper">
+                <li class="cards_item">
                     <div class="card">
-                        <img src="src/images/pig-game.png" alt="pig game thumbnail">
-                        <div class="card-info-wrapper">
-                            <div class="card-title">Pig Game</div>
-                            <div class="card-links">
-                                <div class="card-button">
-                                    <a href="#"><i class="fab fa-github"></i><span> Github</span></a>
-                                </div>
-                                <div class="card-button">
-                                    <a href="#"><i class="fas fa-link"></i><span> View</span></a>
-                                </div>
-                            </div>
+                        <div class="card_image"><img src="src/images/pig-game.png"></div>
+                        <div class="card_content">
+                            <h2 class="card_title">Pig Game</h2>
+                            <p class="card_text">The game of Pig is a very simple dice game in which two players race to
+                                reach 100 points</p>
+                            <a href=""><button class="btn card_btn"><i class="fab fa-github"></i> github</button></a>
+                            <a href=""><button class="btn card_btn"><i class="fa fa-link"></i> view</button></a>
                         </div>
                     </div>
-                </div>
-                <div class="column">
+                </li>
+                <li class="cards_item">
                     <div class="card">
-                        <img src="src/images/weather_app.png" alt="weather app thumbnail">
-                        <div class="card-info-wrapper">
-                            <div class="card-title">Weather App</div>
-                            <div class="card-links">
-                                <div class="card-button">
-                                    <a href="#"><i class="fab fa-github"></i><span> Github</span></a>
-                                </div>
-                                <div class="card-button">
-                                    <a href="#"><i class="fas fa-link"></i><span> View</span></a>
-                                </div>
-                            </div>
+                        <div class="card_image"><img src="src/images/weather-app.png"></div>
+                        <div class="card_content">
+                            <h2 class="card_title">Weather App</h2>
+                            <p class="card_text">A simple weather app that allows you to search by city and see the
+                                weather in that location </p>
+                            <a href=""><button class="btn card_btn"><i class="fab fa-github"></i> github</button></a>
+                            <a href=""><button class="btn card_btn"><i class="fa fa-link"></i> view</button></a>
                         </div>
                     </div>
-                </div>
-                <div class="column">
+                </li>
+                <li class="cards_item">
                     <div class="card">
-                        <img src="src/images/guessmynumber.png" alt="guess my number thumbnail">
-                        <div class="card-info-wrapper">
-                            <div class="card-title">Guess My Number</div>
-                            <div class="card-links">
-                                <div class="card-button">
-                                    <a href="#"><i class="fab fa-github"></i><span> Github</span></a>
-                                </div>
-                                <div class="card-button">
-                                    <a href="#"><i class="fas fa-link"></i><span> View</span></a>
-                                </div>
-                            </div>
+                        <div class="card_image"><img src="src/images/guessmynumber.png"></div>
+                        <div class="card_content">
+                            <h2 class="card_title">Guess My Number</h2>
+                            <p class="card_text">A fun game that challenges you to find a number based on greater than
+                                or less than feedback</p>
+                            <a href=""><button class="btn card_btn"><i class="fab fa-github"></i> github</button></a>
+                            <a href=""><button class="btn card_btn"><i class="fa fa-link"></i> view</button></a>
                         </div>
                     </div>
-                </div>
-                <div class="column">
+                </li>
+                <!-- <li class="cards_item">
                     <div class="card">
-                        <img src="src/images/formula-one.png" alt="Pig Game Thumbnail">
-                        <div class="card-info-wrapper">
-                            <div class="card-title">F1 Racer API</div>
-                            <div class="card-links">
-                                <div class="card-button">
-                                    <a href="#"><i class="fab fa-github"></i><span> Github</span></a>
-                                </div>
-                                <div class="card-button">
-                                    <a href="#"><i class="fas fa-link"></i><span> View</span></a>
-                                </div>
-                            </div>
+                        <div class="card_image"><img src="src/images/formula-one.png"></div>
+                        <div class="card_content">
+                            <h2 class="card_title">F1 Racer API</h2>
+                            <p class="card_text">A table which displays Formula One Racer standings based off searched year and round </p>
+                            <a href=""><button class="btn card_btn"><i class="fab fa-github"></i> github</button></a>
+                            <a href=""><button class="btn card_btn"><i class="fa fa-link"></i> view</button></a>
                         </div>
                     </div>
-                </div>
-
-            </div>
+                </li> -->
+            </ul>
         </div>
-        <!-- <div class="content">
-            <div class="project-names"><span>Interacting with API's</span></div>
-            <div class="row">
-                <div class="column">
-                    <div class="card">..</div>
-                </div>
-                <div class="column">
-                    <div class="card">..</div>
-                </div>
-                <div class="column">
-                    <div class="card">..</div>
-                </div>
-                <div class="column">
-                    <div class="card">..</div>
-                </div>
-            </div>
-        </div>
-        <div class="content">
-            <div class="project-names"><span>Clones and Mockups</span></div>
-            <div class="row">
-                <div class="column">
-                    <div class="card">
-                        ..
-                    </div>
-                </div>
-                <div class="column">
-                    <div class="card">..</div>
-                </div>
-                <div class="column">
-                    <div class="card">..</div>
-                </div>
-                <div class="column">
-                    <div class="card">..</div>
-                </div>
-            </div>
-        </div> -->
     </section>
 
     <!-- Contact Me section Start -->
@@ -252,19 +198,16 @@
         <div class="content">
             <div class="title"><span>Contact Me</span></div>
             <div class="form-container">
-                <form method="POST" id="contact-form">
+                <form action="https://formspree.io/f/xyyonyko" method="POST" id="contact-form">
 
                     <label for="name">Name</label>
                     <input type="text" id="fname" name="name" placeholder="Full Name">
-
-                    <!-- <label for="lname">Last Name</label>
-                    <input type="text" id="lname" name="lastname" placeholder="Last Name"> -->
 
                     <label for="email">Email</label>
                     <input type="email" id="email" name="email" placeholder="Name@email.com">
 
                     <label for="subject">Subject</label>
-                    <input type="text" id="subject" name="subject" placeholder="Subject" ></input>
+                    <input type="text" id="subject" name="subject" placeholder="Subject"></input>
 
                     <label for="message">Message</label>
                     <textarea id="message" name="message" placeholder="Write something.."
@@ -287,7 +230,6 @@
             <span><a href="#">Baruch Rotbart | &#169; 2022 All Rights Reserved</a></span>
         </div>
     </footer>
-
 
     <!-- Javascript -->
     <script src="src/script.js"></script>
