@@ -377,7 +377,7 @@ section .button button:hover {
 .card_content {
   padding: 1rem;
   text-align: center;
-  background: linear-gradient(to bottom right, #f0f8ff 40%, #b2d1ec 100%);
+  background: linear-gradient(to bottom right, #f0f8ff 40%, #c6dbee 100%);
 }
 
 .card_title {
