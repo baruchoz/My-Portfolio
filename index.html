@@ -7,6 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- CSS -->
     <link rel="stylesheet" href="src/css/style.css">
+    <!-- Javascript -->
+    <script src="src/js/script.js" defer></script>
     <!-- Fontawesome Link -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
     <!--  Google Fonts Link  -->
@@ -25,7 +27,9 @@
         <div class="navbar">
             <!-- Logo -->
             <div class="logo">
-                <a href="#home"><i class='fas fa-arrow-right-from-bracket'></i></a>
+                <a href="#home">
+                    <ion-icon name="home-outline"></ion-icon>
+                </a>
             </div>
             <!-- Nav Items -->
             <ul class="menu">
@@ -106,7 +110,7 @@
                     <p class="certifications">Software Development BootCamp • Coding Temple 2021</p>
                     <p class="certifications">Responsive Web Design Essentials • Udemy 2022</p>
                     <div class="experience">
-                        <div class="num">&#60 1</div>
+                        <div class="num">1</div>
                         <div class="exp">Year of <br> Experience</div>
                     </div>
                 </div>
@@ -141,38 +145,43 @@
             <ul class="cards-wrapper">
                 <li class="cards_item">
                     <div class="card">
-                        <div class="card_image"><img src="src/images/pig-game.png"></div>
+                        <div class="card_image"><img src="src/images/pig-game.png" alt="pig game photo"></div>
                         <div class="card_content">
                             <h2 class="card_title">Pig Game</h2>
                             <p class="card_text">The game of Pig is a very simple dice game in which two players race to
                                 reach 100 points</p>
-                            <a href="https://github.com/baruchoz/Pig-Game"><button class="btn card_btn"><i class="fab fa-github"></i> github</button></a>
+                            <a href="https://github.com/baruchoz/Pig-Game"><button class="btn card_btn"><i
+                                        class="fab fa-github"></i> github</button></a>
                             <a href="pig.html"><button class="btn card_btn"><i class="fa fa-link"></i> view</button></a>
                         </div>
                     </div>
                 </li>
                 <li class="cards_item">
                     <div class="card">
-                        <div class="card_image"><img src="src/images/weather-app.png"></div>
+                        <div class="card_image"><img src="src/images/weather-app.png" alt="weather app photo"></div>
                         <div class="card_content">
                             <h2 class="card_title">Weather App</h2>
                             <p class="card_text">A simple weather app that allows you to search by city and see the
                                 weather in that location </p>
                             <a href="https://github.com/baruchoz/weather_api"><button class="btn card_btn"><i
                                         class="fab fa-github"></i> github</button></a>
-                            <a href="weather-app.html"><button class="btn card_btn"><i class="fa fa-link"></i> view</button></a>
+                            <a href="weather-app.html"><button class="btn card_btn"><i class="fa fa-link"></i>
+                                    view</button></a>
                         </div>
                     </div>
                 </li>
                 <li class="cards_item">
                     <div class="card">
-                        <div class="card_image"><img src="src/images/guessmynumber.png"></div>
+                        <div class="card_image"><img src="src/images/guessmynumber.png" alt="guess my number photo">
+                        </div>
                         <div class="card_content">
                             <h2 class="card_title">Guess My Number</h2>
                             <p class="card_text">A fun game that challenges you to find a number based on greater than
                                 or less than feedback</p>
-                            <a href="https://github.com/baruchoz/Guess-My-Number-Game"><button class="btn card_btn"><i class="fab fa-github"></i> github</button></a>
-                            <a href="guess-my-number.html"><button class="btn card_btn"><i class="fa fa-link"></i> view</button></a>
+                            <a href="https://github.com/baruchoz/Guess-My-Number-Game"><button class="btn card_btn"><i
+                                        class="fab fa-github"></i> github</button></a>
+                            <a href="guess-my-number.html"><button class="btn card_btn"><i class="fa fa-link"></i>
+                                    view</button></a>
                         </div>
                     </div>
                 </li>
@@ -198,14 +207,14 @@
             <div class="form-container">
                 <form action="https://formspree.io/f/xyyonyko" method="POST" id="contact-form">
 
-                    <label for="name">Name</label>
+                    <label for="fname">Name</label>
                     <input type="text" id="fname" name="name" placeholder="Full Name">
 
                     <label for="email">Email</label>
                     <input type="email" id="email" name="email" placeholder="Name@email.com">
 
                     <label for="subject">Subject</label>
-                    <input type="text" id="subject" name="subject" placeholder="Subject"></input>
+                    <input type="text" id="subject" name="subject" placeholder="Subject">
 
                     <label for="message">Message</label>
                     <textarea id="message" name="message" placeholder="Write something.."
@@ -229,8 +238,8 @@
         </div>
     </footer>
 
-    <!-- Javascript -->
-    <script src="src/js/script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </body>
 
 </html>
